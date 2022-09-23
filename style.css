@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "SigmarOne";
+    src: url("./SigmarOne.otf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("./Lato-Light.ttf");
+}
+
+body {
+    background: linear-gradient(#00C9FF, #92FE9D);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenublanc {
+    background-color: white;
+    max-width: 850px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.photo {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: "SigmarOne";
+}
+
+h2 {
+    font-family: "Lato";
+    color: grey;
+    font-size: 18px;
+}
+
+.fa-ul {
+    font-family: "Lato";
+    color: black;
+    line-height: 35px;
+    margin-left: 15px;
+}
+
+.fa-li {
+    color: #00C9FF;
+    size: 40px;
+}
+
+.coldr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    line-height: 20px;
+}
+
+.fa-brands {
+    color: #00C9FF;
+    width: 40px;
+    margin-top: 40px;
+}
+
+a:hover {
+    color: #92FE9D;
+    transform: scale(1.5,1.5);
+}
